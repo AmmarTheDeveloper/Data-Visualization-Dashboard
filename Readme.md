@@ -53,17 +53,17 @@ Run the backend server:
 
 In the backend folder, run the following command:
 
-bash
-Copy code
-npm start
+```
+npm run dev
+```
+
 Run the frontend server:
 
 In the front-end folder, run the following command:
 
-bash
-Copy code
-npm start
-Access the application:
+```
+npm run dev
+```
 
 Open your browser and navigate to http://localhost:3000.
 
