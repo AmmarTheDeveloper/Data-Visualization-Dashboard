@@ -1,1 +1,1 @@
-export const BASE_URL = "";
+export const BASE_URL = "https://data-visualization-dashboard-ckko.onrender.com";
