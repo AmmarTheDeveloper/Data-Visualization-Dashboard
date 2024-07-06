@@ -18,38 +18,37 @@ The dashboard includes various types of charts such as bar, radar, doughnut, bub
 
 To set up the project, follow these steps:
 
-1. **Clone the repository:**
+#### 1. Clone the repository:
 
-   ```bash
-   git clone git@github.com:AmmarTheDeveloper/Data-Visualization-Dashboard.git
-   ```
+```bash
+git clone git@github.com:AmmarTheDeveloper/Data-Visualization-Dashboard.git
+```
 
-2. Install dependencies for both frontend and backend:
+#### 2. Install dependencies for both frontend and backend:
 
-Navigate to the front-end folder and run the following command:
+**Navigate to the front-end folder and run the following command:**
 
 ```
 cd front-end
 npm install
 ```
 
-Navigate to the backend folder and run the following command:
+#### Navigate to the backend folder and run the following command:
 
 ```
 cd backend
 npm install
 ```
 
-Set up the database:
+**Set up the database:**
 
 Ensure you have MongoDB installed and running on your machine.
-Create a database and connect it to the backend by updating the database configuration in the backend code.
 
-Insert sample data:
+**Insert sample data:**
 
-You will find a data.json file in the backend folder. Use this file to insert sample data into your database. You can do this using a tool like MongoDB Compass or through a script.
+You will find a **data.json** file in the backend folder. Use this file to insert sample data into your database. You can do this using a tool like MongoDB Compass or through a script.
 
-Run the backend server:
+**Run the backend server:**
 
 In the backend folder, run the following command:
 
@@ -57,7 +56,7 @@ In the backend folder, run the following command:
 npm run dev
 ```
 
-Run the frontend server:
+**Run the frontend server:**
 
 In the front-end folder, run the following command:
 
@@ -67,11 +66,13 @@ npm run dev
 
 Open your browser and navigate to http://localhost:3000.
 
-Features
-User Authentication:
+### Features
+
+**User Authentication:**
 
 Users must log in to access the dashboard.
-Charts:
+
+**Charts:**
 
 Bar, Radar, Doughnut, Bubble, Pie, and Polar Area charts created using Chart.js.
 Responsive Design:
